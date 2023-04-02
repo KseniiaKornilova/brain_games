@@ -1,5 +1,7 @@
-import math, random
+import math
+import random
 from .. import common_logic
+
 
 def gcd_calculation():
     condition = 'Find the greatest common divisor of given numbers.'

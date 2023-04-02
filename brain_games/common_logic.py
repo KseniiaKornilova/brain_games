@@ -1,4 +1,4 @@
-import random, prompt
+import prompt
 
 
 def logic(condition, get_question, get_answer):
@@ -10,7 +10,7 @@ def logic(condition, get_question, get_answer):
     while count <= 2:
         question = get_question()
         print('Question:', question)
-        user_answer = prompt.string('Your answer: ') 
+        user_answer = prompt.string('Your answer:')
         real_answer = get_answer(question)
         if user_answer == real_answer:
             print('Correct!')

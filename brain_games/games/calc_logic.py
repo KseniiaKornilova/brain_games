@@ -1,6 +1,7 @@
 import random
 from .. import common_logic
 
+
 def calculation():
     condition = 'What is the result of the expression?'
 
