@@ -1,5 +1,5 @@
 import random
-from . import common_logic
+from .. import common_logic
 
 def even():
     condition = 'Answer "yes" if the number is even, otherwise answer "no".'

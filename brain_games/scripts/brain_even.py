@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from .. import even_logic
+from ..games import even_logic
 
 def main():
     even_logic.even()
